@@ -1,5 +1,8 @@
 ScriptsOnlyBuild:
   usedScripts:
+    Assembly-CSharp.dll:
+    - BallTransform
+    - HelloWorld
     Unity.Play.Publisher.Editor.dll:
     - Unity.Play.Publisher.Editor.AnalyticsHelper
     - Unity.Play.Publisher.Editor.PublisherWindow
@@ -44,6 +47,12 @@ ScriptsOnlyBuild:
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 28354}
+    - Class: 114
+      Script: {instanceID: 29564}
+    - Class: 115
       Script: {instanceID: 0}
     - Class: 134
       Script: {instanceID: 0}
@@ -878,7 +887,19 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core
     namespaceName: Unity.VisualScripting
     className: UnityOnSliderValueChangedMessageListener
+  - hash:
+      serializedVersion: 2
+      Hash: b5ed158da17e7c53d696966c68f8fd77
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: HelloWorld
+  - hash:
+      serializedVersion: 2
+      Hash: 2b72a1bdd3176dbaab333b46618d3f50
+    assemblyName: Assembly-CSharp
+    namespaceName: 
+    className: BallTransform
   platform: 20
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: /Users/tiffanychen/My project/Realtime3D
+  playerPath: /Users/tiffanychen/My project/Essentialsofprogramming
